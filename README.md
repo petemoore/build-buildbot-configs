@@ -1,4 +1,4 @@
-# Mozharness
+# buildbot-configs
 This repository is a downstream read-only copy of:
 http://hg.mozilla.org/build/buildbot-configs/
 
