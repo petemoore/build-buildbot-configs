@@ -8,9 +8,6 @@ install:
 script:
   - tox
 
-after_script:
-  - tox -e py27-coveralls
-
 # currently cannot customise per user fork, see:
 # https://github.com/travis-ci/travis-ci/issues/1094
 ######  notifications:
