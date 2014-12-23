@@ -1,7 +1,7 @@
 #!/bin/bash -e
 [ -z "${1}" ] || [ -z "${2}" ] && exit 1
 TOX_INI_DIR="${1}"
-TOX_WORK_DIR="${1}"
+TOX_WORK_DIR="${2}"
 
 function hgme {
     repo="${1}"
