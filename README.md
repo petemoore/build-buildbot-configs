@@ -8,7 +8,7 @@ mirror for us. However, feel free to fork from us and make changes. Then, rather
 submitting a pull request, please create a patch for your changes (capture the output
 of your changes using e.g. git diff) and attach the patch file to a Bugzilla bug,
 created in the following component:
-https://bugzilla.mozilla.org/enter_bug.cgi?product=Release%20Engineering&component=Tools
+https://bugzilla.mozilla.org/enter_bug.cgi?product=Release%20Engineering&component=General%20Automation
 
 This bug will get triaged by us.
 
@@ -75,5 +75,10 @@ Notes:
 ```
 This allows you to map a git commit SHA to an hg changeset SHA ("Upstream source").
 
+### Related repositories
+
+Please also see:
+* https://github.com/mozilla/build-buildbotcustom/
+* https://hg.mozilla.org/build/buildbot/ (not mirrored to github)
 
 Happy contributing! =)
