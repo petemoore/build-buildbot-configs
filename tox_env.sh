@@ -23,3 +23,4 @@ cd "${TOX_WORK_DIR}/buildbot/master" && python setup.py install
 rm -rf "${TOX_INI_DIR}/test-output"
 rm -rf "${TOX_INI_DIR}/run/shm/buildbot"
 mkdir -p "${TOX_INI_DIR}/run/shm/buildbot"
+echo "PYTHONPATH: '${PYTHONPATH}'"
