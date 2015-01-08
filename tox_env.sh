@@ -24,3 +24,5 @@ rm -rf "${TOX_INI_DIR}/test-output"
 rm -rf "${TOX_INI_DIR}/run/shm/buildbot"
 mkdir -p "${TOX_INI_DIR}/run/shm/buildbot"
 echo "PYTHONPATH: '${PYTHONPATH}'"
+pip freeze
+ls -l "${TOX_WORK_DIR}/py27/lib/python2.7/site-packages"
